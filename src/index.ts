@@ -1,3 +1,9 @@
-type c = {
-  b: string;
+type Person = {
+  name: string;
 };
+
+const a: Person = {
+  name: 'mike',
+};
+
+console.log(a);
